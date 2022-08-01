@@ -13,13 +13,11 @@ import sys
 import unittest
 
 import ory_keto_client
-from ory_keto_client.model.subject_set import SubjectSet
-globals()['SubjectSet'] = SubjectSet
-from ory_keto_client.model.relation_query import RelationQuery
+from ory_keto_client.model.get_version200_response import GetVersion200Response
 
 
-class TestRelationQuery(unittest.TestCase):
-    """RelationQuery unit test stubs"""
+class TestGetVersion200Response(unittest.TestCase):
+    """GetVersion200Response unit test stubs"""
 
     def setUp(self):
         pass
@@ -27,10 +25,10 @@ class TestRelationQuery(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testRelationQuery(self):
-        """Test RelationQuery"""
+    def testGetVersion200Response(self):
+        """Test GetVersion200Response"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = RelationQuery()  # noqa: E501
+        # model = GetVersion200Response()  # noqa: E501
         pass
 
 
